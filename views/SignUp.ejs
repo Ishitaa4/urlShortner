@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Welcome to the Sign Up Page!</h1>
+    <form action="/user" method ="post">
+        <table>
+        <tr>
+        <td>Full Name</td>
+        <td>
+            <input type = "text" name="name"  required>
+        </td>
+        </tr>
+        <tr>
+        <td>email </td>
+        <td>
+            <input type="email" name="email" required>
+        </td>
+        </tr>
+        <tr>
+        <td> password</td>
+            <td>
+            <input type="password" name="password"  required > 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"> <button type ="submit"> SignUp</button> 
+            </td> 
+        </tr>
+       
+    </table>
+    </form>
+</body>
+</html>
